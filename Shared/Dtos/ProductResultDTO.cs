@@ -1,0 +1,13 @@
+﻿namespace Shared.Dtos
+{
+    public record ProductResultDTO
+    {
+        public int Id { get; init; }
+        public string Name { get; init; }
+        public string Decription { get; init; }
+        public string PictureUrl { get; init; }
+        public decimal Price { get; init; }
+        public string TypeName { get; init; }
+        public string BrandName { get; init; }
+    }
+}
